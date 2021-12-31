@@ -1,0 +1,1 @@
+export { EventSubClient } from "./Client/EventSubClient";
