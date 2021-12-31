@@ -3,7 +3,7 @@ import type {Express, NextFunction, Request, Response} from "express";
 import { AccessTokenManager } from "./AccessTokenManager";
 import { TwitchAPIRequestBuilder } from "../util/TwitchAPIRequestBuilder";
 import { urls } from "../util/constants";
-import { Condition } from "../types/conditions/ConditionType";
+import { Condition } from "../../types/conditions/ConditionType";
 
 
 export interface EventSubClientOptions {

@@ -1,10 +1,10 @@
 import {EventEmitter} from "events";
 import {createHmac, timingSafeEqual, randomBytes} from "crypto";
-import { EventSubNotification, StreamOfflineNotification, StreamOnlineNotification } from "../types/EventSubNotification";
-import { EventSubSubscription } from "../types/EventSubSubscription";
-import { EventSubType } from "../types/EventSubNotificationTypes";
-import { Condition } from "../types/conditions/ConditionType";
-import { EventSubTransport } from "../types/EventSubTransport";
+import { EventSubNotification, StreamOfflineNotification, StreamOnlineNotification } from "../../types/EventSubNotification";
+import { EventSubSubscription } from "../../types/EventSubSubscription";
+import { EventSubType } from "../../types/EventSubNotificationTypes";
+import { Condition } from "../../types/conditions/ConditionType";
+import { EventSubTransport } from "../../types/EventSubTransport";
 import { TwitchEventSubEvent } from "./EventSubClient";
 
 export class EventSubClientBase extends EventEmitter {
